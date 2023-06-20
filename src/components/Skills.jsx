@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 const Skills = () => {
     return (
-        <div className="grid grid-cols-4 gap-x-4 mx-auto -ml-3">
+        <div className="grid grid-cols-3 md:grid-cols-4 gap-x-4 mx-auto ">
             <motion.div
                 className="md:w-1/3 mt-10"
                 initial="hidden"
