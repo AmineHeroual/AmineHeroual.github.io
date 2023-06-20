@@ -14,9 +14,9 @@ const Skills = () => {
                     visible: { opacity: 1, y: 0 },
                 }}
             >
-                <div className="relative w-28 h-8">
+                <div className="relative w-16 md:w-28 h-8">
                     <div className="z-10 border-2 border-teal hover:bg-teal hover: hover:text-white transition duration-300">
-                        <p className="font-playfair font-semibold text-xl m-3 mx-auto text-center">
+                        <p className="font-playfair font-semibold text-sm md:text-xl m-3 mx-auto text-center">
                             HTML
                         </p>
                     </div>
@@ -33,9 +33,9 @@ const Skills = () => {
                     visible: { opacity: 1, y: 0 },
                 }}
             >
-                <div className="relative w-28 h-8">
+                <div className="relative w-16 md:w-28 h-8">
                     <div className="z-10 border-2 border-teal hover:bg-teal hover:text-white transition duration-300">
-                        <p className="font-playfair font-semibold text-xl m-3 mx-auto text-center">
+                        <p className="font-playfair font-semibold text-sm md:text-xl m-3 mx-auto text-center">
                             CSS
                         </p>
                     </div>
@@ -52,9 +52,9 @@ const Skills = () => {
                     visible: { opacity: 1, y: 0 },
                 }}
             >
-                <div className="relative w-28 h-8">
+                <div className="relative w-16 md:w-28 h-8">
                     <div className="z-10 border-2 border-teal hover:bg-teal hover:text-white transition duration-300">
-                        <p className="font-playfair font-semibold text-xl m-3 mx-auto text-center">
+                        <p className="font-playfair font-semibold text-sm md:text-xl m-3 mx-auto text-center">
                             JavaScript
                         </p>
                     </div>
@@ -71,9 +71,9 @@ const Skills = () => {
                     visible: { opacity: 1, y: 0 },
                 }}
             >
-                <div className="relative w-28 h-8">
+                <div className="relative w-16 md:w-28 h-8">
                     <div className="z-10 border-2 border-teal hover:bg-teal hover:text-white transition duration-300">
-                        <p className="font-playfair font-semibold text-xl m-3 mx-auto text-center">
+                        <p className="font-playfair font-semibold text-sm md:text-xl m-3 mx-auto text-center">
                             ReactJS
                         </p>
                     </div>
@@ -90,9 +90,9 @@ const Skills = () => {
                     visible: { opacity: 1, y: 0 },
                 }}
             >
-                <div className="relative w-28 h-8">
+                <div className="relative w-16 md:w-28 h-8">
                     <div className="z-10 border-2 border-teal hover:bg-teal hover:text-white transition duration-300">
-                        <p className="font-playfair font-semibold text-xl m-3 mx-auto text-center">
+                        <p className="font-playfair font-semibold text-sm md:text-xl m-3 mx-auto text-center">
                             NextJS
                         </p>
                     </div>
@@ -109,9 +109,9 @@ const Skills = () => {
                     visible: { opacity: 1, y: 0 },
                 }}
             >
-                <div className="relative w-28 h-8">
+                <div className="relative w-16 md:w-28 h-8">
                     <div className="z-10 border-2 border-teal hover:bg-teal hover:text-white transition duration-300">
-                        <p className="font-playfair font-semibold text-xl m-3 mx-auto text-center">
+                        <p className="font-playfair font-semibold text-sm md:text-xl m-3 mx-auto text-center">
                             PHP
                         </p>
                     </div>
@@ -128,9 +128,9 @@ const Skills = () => {
                     visible: { opacity: 1, y: 0 },
                 }}
             >
-                <div className="relative w-28 h-8">
+                <div className="relative w-16 md:w-28 h-8">
                     <div className="z-10 border-2 border-teal hover:bg-teal hover:text-white transition duration-300">
-                        <p className="font-playfair font-semibold text-xl m-3 mx-auto text-center">
+                        <p className="font-playfair font-semibold text-sm md:text-xl m-3 mx-auto text-center">
                             Laravel
                         </p>
                     </div>
@@ -147,9 +147,9 @@ const Skills = () => {
                     visible: { opacity: 1, y: 0 },
                 }}
             >
-                <div className="relative w-28 h-8">
+                <div className="relative w-16 md:w-28 h-8">
                     <div className="z-10 border-2 border-teal hover:bg-teal hover:text-white transition duration-300">
-                        <p className="font-playfair font-semibold text-xl m-3 mx-auto text-center">
+                        <p className="font-playfair font-semibold text-sm md:text-xl m-3 mx-auto text-center">
                             MySQL
                         </p>
                     </div>
@@ -166,9 +166,9 @@ const Skills = () => {
                     visible: { opacity: 1, y: 0 },
                 }}
             >
-                <div className="relative w-28 h-8">
+                <div className="relative w-16 md:w-28 h-8">
                     <div className="z-10 border-2 border-teal hover:bg-teal hover:text-white transition duration-300">
-                        <p className="font-playfair font-semibold text-xl m-3 mx-auto text-center">
+                        <p className="font-playfair font-semibold text-sm md:text-xl m-3 mx-auto text-center">
                             MongoDB
                         </p>
                     </div>
@@ -185,9 +185,9 @@ const Skills = () => {
                     visible: { opacity: 1, y: 0 },
                 }}
             >
-                <div className="relative w-28 h-8">
+                <div className="relative w-16 md:w-28 h-8">
                     <div className="z-10 border-2 border-teal hover:bg-teal hover:text-white transition duration-300">
-                        <p className="font-playfair font-semibold text-xl m-3 mx-auto text-center">
+                        <p className="font-playfair font-semibold text-sm md:text-xl m-3 mx-auto text-center">
                             NodeJS
                         </p>
                     </div>
@@ -204,9 +204,9 @@ const Skills = () => {
                     visible: { opacity: 1, y: 0 },
                 }}
             >
-                <div className="relative w-28 h-8">
+                <div className="relative w-16 md:w-28 h-8">
                     <div className="z-10 border-2 border-teal hover:bg-teal hover:text-white transition duration-300">
-                        <p className="font-playfair font-semibold text-xl m-3 mx-auto text-center">
+                        <p className="font-playfair font-semibold text-sm md:text-xl m-3 mx-auto text-center">
                             Git
                         </p>
                     </div>
