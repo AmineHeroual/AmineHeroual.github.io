@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 const Skills = () => {
     return (
-        <div className="grid grid-cols-4 gap-x-4">
+        <div className="grid grid-cols-4 gap-x-4 mx-auto -ml-3">
             <motion.div
                 className="md:w-1/3 mt-10"
                 initial="hidden"
@@ -14,7 +14,7 @@ const Skills = () => {
                     visible: { opacity: 1, y: 0 },
                 }}
             >
-                <div className="relative w-16 md:w-28 h-8">
+                <div className="relative w-20  md:w-24 lg:28 h-8">
                     <div className="z-10 border-2 border-teal hover:bg-teal hover: hover:text-white transition duration-300">
                         <p className="font-playfair font-semibold text-sm md:text-xl m-3 mx-auto text-center">
                             HTML
@@ -33,7 +33,7 @@ const Skills = () => {
                     visible: { opacity: 1, y: 0 },
                 }}
             >
-                <div className="relative w-16 md:w-28 h-8">
+                <div className="relative w-20  md:w-24 lg:28 h-8">
                     <div className="z-10 border-2 border-teal hover:bg-teal hover:text-white transition duration-300">
                         <p className="font-playfair font-semibold text-sm md:text-xl m-3 mx-auto text-center">
                             CSS
@@ -52,7 +52,7 @@ const Skills = () => {
                     visible: { opacity: 1, y: 0 },
                 }}
             >
-                <div className="relative w-16 md:w-28 h-8">
+                <div className="relative w-20  md:w-24 lg:28 h-8">
                     <div className="z-10 border-2 border-teal hover:bg-teal hover:text-white transition duration-300">
                         <p className="font-playfair font-semibold text-sm md:text-xl m-3 mx-auto text-center">
                             JavaScript
@@ -71,7 +71,7 @@ const Skills = () => {
                     visible: { opacity: 1, y: 0 },
                 }}
             >
-                <div className="relative w-16 md:w-28 h-8">
+                <div className="relative w-20  md:w-24 lg:28 h-8">
                     <div className="z-10 border-2 border-teal hover:bg-teal hover:text-white transition duration-300">
                         <p className="font-playfair font-semibold text-sm md:text-xl m-3 mx-auto text-center">
                             ReactJS
@@ -90,7 +90,7 @@ const Skills = () => {
                     visible: { opacity: 1, y: 0 },
                 }}
             >
-                <div className="relative w-16 md:w-28 h-8">
+                <div className="relative w-20  md:w-24 lg:28 h-8">
                     <div className="z-10 border-2 border-teal hover:bg-teal hover:text-white transition duration-300">
                         <p className="font-playfair font-semibold text-sm md:text-xl m-3 mx-auto text-center">
                             NextJS
@@ -109,7 +109,7 @@ const Skills = () => {
                     visible: { opacity: 1, y: 0 },
                 }}
             >
-                <div className="relative w-16 md:w-28 h-8">
+                <div className="relative w-20  md:w-24 lg:28 h-8">
                     <div className="z-10 border-2 border-teal hover:bg-teal hover:text-white transition duration-300">
                         <p className="font-playfair font-semibold text-sm md:text-xl m-3 mx-auto text-center">
                             PHP
@@ -128,7 +128,7 @@ const Skills = () => {
                     visible: { opacity: 1, y: 0 },
                 }}
             >
-                <div className="relative w-16 md:w-28 h-8">
+                <div className="relative w-20  md:w-24 lg:28 h-8">
                     <div className="z-10 border-2 border-teal hover:bg-teal hover:text-white transition duration-300">
                         <p className="font-playfair font-semibold text-sm md:text-xl m-3 mx-auto text-center">
                             Laravel
@@ -147,7 +147,7 @@ const Skills = () => {
                     visible: { opacity: 1, y: 0 },
                 }}
             >
-                <div className="relative w-16 md:w-28 h-8">
+                <div className="relative w-20  md:w-24 lg:28 h-8">
                     <div className="z-10 border-2 border-teal hover:bg-teal hover:text-white transition duration-300">
                         <p className="font-playfair font-semibold text-sm md:text-xl m-3 mx-auto text-center">
                             MySQL
@@ -166,7 +166,7 @@ const Skills = () => {
                     visible: { opacity: 1, y: 0 },
                 }}
             >
-                <div className="relative w-16 md:w-28 h-8">
+                <div className="relative w-20  md:w-24 lg:28 h-8">
                     <div className="z-10 border-2 border-teal hover:bg-teal hover:text-white transition duration-300">
                         <p className="font-playfair font-semibold text-sm md:text-xl m-3 mx-auto text-center">
                             MongoDB
@@ -185,7 +185,7 @@ const Skills = () => {
                     visible: { opacity: 1, y: 0 },
                 }}
             >
-                <div className="relative w-16 md:w-28 h-8">
+                <div className="relative w-20  md:w-24 lg:28 h-8">
                     <div className="z-10 border-2 border-teal hover:bg-teal hover:text-white transition duration-300">
                         <p className="font-playfair font-semibold text-sm md:text-xl m-3 mx-auto text-center">
                             NodeJS
@@ -204,7 +204,7 @@ const Skills = () => {
                     visible: { opacity: 1, y: 0 },
                 }}
             >
-                <div className="relative w-16 md:w-28 h-8">
+                <div className="relative w-20  md:w-24 lg:28 h-8">
                     <div className="z-10 border-2 border-teal hover:bg-teal hover:text-white transition duration-300">
                         <p className="font-playfair font-semibold text-sm md:text-xl m-3 mx-auto text-center">
                             Git
