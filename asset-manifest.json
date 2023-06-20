@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d54febd2.css",
+    "main.js": "/static/js/main.d08f2bf1.js",
+    "static/media/Gabi_Braun.png": "/static/media/Gabi_Braun.7d4db27c48467cee5477.png",
+    "static/media/Bertholdt_Hoover.png": "/static/media/Bertholdt_Hoover.e430d43fcc6b769b46a0.png",
+    "static/media/Armin_Arlelt.png": "/static/media/Armin_Arlelt.3ce490a4fc8eff91e94c.png",
+    "index.html": "/index.html",
+    "main.d54febd2.css.map": "/static/css/main.d54febd2.css.map",
+    "main.d08f2bf1.js.map": "/static/js/main.d08f2bf1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d54febd2.css",
+    "static/js/main.d08f2bf1.js"
+  ]
+}
