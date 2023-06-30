@@ -6,6 +6,12 @@ import SocialMediaIcons from '../components/SocialMediaIcons';
 const Landing = ({ setSelectedPage }) => {
     const isAboveMediumScreens = useMediaQuery('(min-width: 1060px)');
 
+    const openCV = () => {
+        const cv = '../assets/AMINE HEROUAL.pdf';
+
+        window.open(cv, '_blank');
+    };
+
     return (
         <section
             id="home"
@@ -62,6 +68,13 @@ const Landing = ({ setSelectedPage }) => {
                     >
                         Contact me
                     </AnchorLink>
+                    <button
+                        className=" bg-teal text-white rounded-sm mx-3 py-3 px-7 font-semibold
+                        hover:bg-white hover:text-deep-blue transition duration-500"
+                        onClick={openCV}
+                    >
+                        Resume
+                    </button>
                 </motion.div>
                 <motion.dev
                     className="flex mt-5 justify-center md:justify-start"

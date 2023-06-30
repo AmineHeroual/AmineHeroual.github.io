@@ -68,7 +68,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                 {/* Mobile Menu */}
 
                 {!isAboveSmallScreens && isMenuToggled && (
-                    <div className="fixed right-0 bottom-0 h-full bg-blue w-[300px]">
+                    <div className="fixed right-0 bottom-0 h-full bg-teal w-[300px]">
                         <div className="flex justify-end p-12">
                             <button
                                 onClick={() => setIsMenuToggled(!isMenuToggled)}

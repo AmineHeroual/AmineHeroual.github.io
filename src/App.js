@@ -11,6 +11,7 @@ import Contact from './scenes/Contact';
 import Footer from './scenes/Footer';
 function App() {
     const [selectedPage, setSelectedPage] = useState('home');
+    const [scrolledPage, setScrolledPage] = useState('home');
     const [isTopOfPage, setIsTopOfPage] = useState(true);
     const isAboveMediumScreens = useMediaQuery('(min-width:1060px)');
 
@@ -28,12 +29,16 @@ function App() {
                 isTopOfPage={isTopOfPage}
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
+                scrolledPage={scrolledPage}
+                setScrolledPage={setScrolledPage}
             />
             <div className="w-5/6 mx-auto md:h-full">
                 {isAboveMediumScreens && (
                     <DotGroup
                         selectedPage={selectedPage}
                         setSelectedPage={setSelectedPage}
+                        scrolledPage={scrolledPage}
+                        setScrolledPage={setScrolledPage}
                     />
                 )}
                 <Landing setSelectedPage={setSelectedPage} />
