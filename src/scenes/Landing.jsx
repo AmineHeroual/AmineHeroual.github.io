@@ -69,7 +69,7 @@ const Landing = ({ setSelectedPage }) => {
                         Contact me
                     </AnchorLink>
                     <button
-                        className=" bg-teal text-white rounded-sm py-3 px-7 font-semibold
+                        className=" text-teal bg-white rounded-sm py-3 px-7 font-semibold
                         hover:bg-white hover:text-deep-blue transition duration-500"
                         onClick={openCV}
                     >
