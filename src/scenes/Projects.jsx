@@ -81,7 +81,12 @@ const Projects = () => {
                     />
 
                     {/* Row #2 */}
-                    {/* <Project title="Project 3" /> */}
+                    <Project
+                        title="project4"
+                        description="YourNotes is a todo-list app with ability to create new account ,and controle your tod and task in the easy way "
+                        demo="https://mern-your-notes.onrender.com/"
+                        code="https://github.com/AmineHeroual/younotes-production"
+                    />
                     {/* <Project title="Project 4" /> */}
                     {/* <Project title="Project 5" /> */}
 
