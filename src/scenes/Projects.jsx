@@ -87,7 +87,12 @@ const Projects = () => {
                         demo="https://mern-your-notes.onrender.com/"
                         code="https://github.com/AmineHeroual/younotes-production"
                     />
-                    {/* <Project title="Project 4" /> */}
+                    <Project
+                        title="project5"
+                        description="YourNotes is a todo-list app with ability to create new account ,and controle your tod and task in the easy way "
+                        demo="https://mern-jobify-hm9t.onrender.com"
+                        code="https://github.com/AmineHeroual/jobify-production"
+                    />
                     {/* <Project title="Project 5" /> */}
 
                     {/* Row #3 */}
